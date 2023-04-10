@@ -1,0 +1,260 @@
+@import url("openfontnew.css");
+@import url("gentiumfont.css");
+@import url("icon.css");
+:root {--stdColor: #02a994; 
+	--stdOrange2: #ff5e24;
+}
+body {
+	width: 99vw;
+	height:99vh;
+	font-family: serif;
+	font-size: 14px;;
+	font-weight: normal;
+	color: white;
+	margin: auto;
+	border: 0px;
+	border-style: hidden;
+}
+.main-view{
+	float: left;
+	width: 21%;
+	margin: 1vh 2%;
+	border: 0px;
+	padding: 0px;
+	display: block;
+	background-color: transparent;
+}
+.session-nav{
+	float: left;
+	width: 99%;
+	height:76vh;
+	margin: 3vh 0%;
+	border: 0px;
+	border-radius: 2px;
+	float: left;
+	display: block;
+	overflow: auto;
+	background-color: var(--stdColor);
+	-webkit-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+	-moz-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+	box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+}
+
+
+
+.top-nav{
+	float: left;
+	width: 99%;
+	height: 22vh;
+	margin: 2vh 0%;
+	border: 0px;
+	border-radius: 2px;
+	float: left;
+	display: block;
+	overflow: auto;
+	background-color: var(--stdColor);
+	-webkit-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+	-moz-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+	box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+}
+
+
+.down-nav{
+	float: left;
+	width: 99%;
+	height:53vh;
+	margin: 1vh 0%;
+	border: 0px;
+	border-radius: 2px;
+	float: left;
+	display: block;
+	background-color: var(--stdColor);
+-webkit-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+-moz-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+	overflow: auto;
+}
+.logo{
+	width:99%;
+	height:9vh;
+	margin: 0%;
+	background-color: white;
+	background-image: url("img/logo.png");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border:0px;
+	border-radius: 1px;
+	-webkit-box-shadow: 2px 2px 3px 1px rgba(119,119,119,0.7);
+	-moz-box-shadow: 2px 2px 3px 1px rgba(119,119,119,0.7);
+	box-shadow: 2px 2px 3px 1px rgba(119,119,119,0.7);
+}
+.logo:hover{
+	background-image: url("img/logo_shadow.png");
+}
+.center-nav{
+    padding-top: 0;
+	float: right;
+	width: 70%;
+	height: 90vh;
+	margin: 1vh 2%;
+	border: 0px;
+	border-radius: 1x;
+	float: left;
+	display: block;
+	background-color: transparent;
+-webkit-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+-moz-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+	overflow: auto;
+}
+
+
+
+.btn-box{
+	/*-webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;*/
+	width: 95%;
+	height: 5vh;
+	margin: 0.9vh 2%;
+	padding-left:4px;
+	padding-right:1px;
+	background-color: transparent;
+	border: 0px;
+	border-radius: 3px;
+	border-bottom: 1px solid white;
+	vertical-align: top;
+	text-align: left;
+	font-family: serif;
+	font-size: 14px;
+	font-weight: 400;
+	cursor: pointer;
+	color:white;	
+}
+.btn-box-semester{
+	/*-webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;*/
+	width: 95%;
+	height: 5vh;
+	margin: 0.9vh 2%;
+	padding-left:4px;
+	padding-right:1px;
+	background-color: transparent;
+	border: 0px;
+	border-radius: 3px;
+	border-bottom: 1px solid white;
+	vertical-align: top;
+	text-align: left;
+	font-family: serif;
+	font-size: 19px;
+	font-weight: 400;
+	cursor: pointer;
+	color:white;	
+}
+.btn-box:hover {
+	border: 1px solid white;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.85);
+	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, .5);
+}
+.btn-box-semester:hover {
+	border: 1px solid white;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.85);
+	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, .5);
+}
+.heads {
+	width: 96%;
+	height:9%;
+	padding-top: 3%;
+	font-family: serif;
+	font-style: normal;
+	font-size: 150%;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 2px 2px 3px rgba(0,0,0,.65);
+	color: white;
+	margin: auto;
+	border: 0px;
+	border-style: hidden;
+}	
+
+            
+        .btn1{
+                margin-top: 20px;
+                margin-bottom: 30px;
+                margin-right: 40px;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                font-family: serif;
+                display: inline-block;
+                font-size: 20px;
+                transition-duration: 0.4s;
+                cursor: pointer;  
+                background-color: cadetblue;
+                border-radius: 20px;}
+        
+        
+        
+        .btn2{
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 40px;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-family: serif;
+            display: inline-block;
+            font-size: 20px;
+            transition-duration: 0.4s;
+            cursor: pointer;  
+            background-color: cadetblue;
+            border-radius: 20px;}
+ .fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #C13584;;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.foot{	padding: 2px;
+    font-size: 14px;
+    bottom: 10px;
+	float: bottom;
+    margin-left: 26px ;
+    margin-right: 30px ;
+    text-align: center;
+    color: black;
+    position: absolute;
+	width: 94.3%;
+	height: 36px;
+	border-radius: 1x;
+	display: block ;
+	background-color: lightslategray;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+    box-shadow: 2px 2px 5px 1px rgba(119,119,119,1);
+    overflow: auto; }
