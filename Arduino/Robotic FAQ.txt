@@ -1,0 +1,42 @@
+Robotic FAQ
+
+1. Which Arduino IDE version to use for coding?
+- Arduino IDE 2.0.4 and above
+
+2. While installing software, its ask for the installing multiple drivers?
+- Allow all the drivers to install along with the software installation process.  
+
+3. I am not able to open the Arduino file in Arduino IDE Software?
+- First Solution >> open Arduino IDE Software >> Goto File option >> Select open >> now you can select your file and click on open.
+- Second Solution >> Right click on the Arduino file >> Select open with option >> open in Notepad >> Select entire code and copy the code >> open Arduino IDE Software >> >> Goto File option >> Select New File >> Delete the pre written code and paste the copied code.
+
+4. What are the differences between Serial.print() and Serial.println() ?
+- Both Serial.print() and Serial.println() prints number, string to Serial Monitor. Serial.println() will print next number or string on new line.
+
+5. What are the differences between digitalWrite() and analogWrite() ?
+- digitalWrite() function controls Arduino's pin to LOW or HIGH. Accordingly, we can use the function to turn ON/OFF LED, DC Motor, etc. AnalogWrite() function generates PWM signal to Arduino's pin. Accordingly, we can use this function to control brightness of LED, speed of DC Motor.
+
+6. Error description: expected',' or ';' before
+
+Error Message in IDE: C:\Users\Documents\Arduino\Code\Code.ino: In function 'void setup()':
+draft:4:3: error: expected ',' or ';' before 'Serial'
+   Serial.println(myVal);
+   ^~~~~~
+exit status 1
+expected ',' or ';' before 'Serial'
+
+- This is a common mistake for beginners who just got started to learn programming. It is very easy to solve. You just need to put semicolon(;) at the end of the line.
+
+7. Error description: Arduino board is connected to laptop / computer, port for board is also configured. But getting the following error.
+
+Error Message in IDE: Arduino: 1.8.19 (Windows 10), Board: "Arduino Uno"
+
+Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.
+Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+An error occurred while uploading the sketch
+avrdude: ser_open(): can't open device "\\.\COM27": The system cannot find the file specified.
+
+- Sometimes, board doesn't connect to laptop / computer properly. Remove the USB Cable from the Arduino Board and Laptop / Computer and connect back. Try to upload code again.
+
+
+
